@@ -1,4 +1,5 @@
 import { name, age, isValid } from './bases/01-types.ts'
+import { pokemonIds, bulbasur } from './bases/02-objects.ts'
 
 import './style.css'
 import typescriptLogo from './typescript.svg'
@@ -19,6 +20,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
     <p class="read-the-docs">
       Hello ${name}_${age}, ${isValid} Click on the Vite and TypeScript logos to learn more
+    </p>
+    <p class=read-the-docs">
+      ${pokemonIds.join(',')}; ${ bulbasur.name }
     </p>
   </div>
 `
