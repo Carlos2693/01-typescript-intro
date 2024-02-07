@@ -1,5 +1,6 @@
 import { name, age, isValid } from './bases/01-types.ts'
 import { pokemonIds, bulbasur } from './bases/02-objects.ts'
+import { charmander } from './bases/03-classes.ts'
 
 import './style.css'
 import typescriptLogo from './typescript.svg'
@@ -23,6 +24,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </p>
     <p class=read-the-docs">
       ${pokemonIds.join(',')}; ${ bulbasur.name }
+    </p>
+    <p class=read-the-docs">
+      ${charmander.name }
     </p>
   </div>
 `
